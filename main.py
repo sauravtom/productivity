@@ -7,14 +7,13 @@ import hashlib
 curr_path = os.path.abspath(__file__)
 curr_path = "/".join(curr_path.split('/')[:-1])
 
-hosts_file = '/etc/hosts'
-temp_file = '%s/template.txt'%curr_path
+hosts_path = '/etc/hosts'
+temp_path = '%s/template.txt'%curr_path
 
 def main():
-	master_file = open(temp_file)
-	a = master_file.read()
+	tmp = open(temp_path).read()
 	with open(hosts_file, "w") as f:
-	    f.write(a)
+	    f.write(tmp)
 
 if __name__ == '__main__':
 	main()
