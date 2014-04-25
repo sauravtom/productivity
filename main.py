@@ -12,7 +12,7 @@ temp_path = '%s/template.txt'%curr_path
 
 def main():
 	tmp = open(temp_path).read()
-	with open(hosts_file, "w") as f:
+	with open(hosts_path, "w") as f:
 	    f.write(tmp)
 
 if __name__ == '__main__':
