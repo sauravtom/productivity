@@ -6,10 +6,16 @@
 127.0.1.1       www.facebook.com
 127.0.1.1       facebook.com
 127.0.1.1       www.twitter.com
-127.0.1.1       hasjob.co
-127.0.1.1       www.reddit.com
-127.0.1.1       news.ycombinator.com
-127.0.1.1       hackerstreet.in     	
+#127.0.1.1       hasjob.co
+#127.0.1.1       www.reddit.com
+#127.0.1.1       news.ycombinator.com
+#127.0.1.1       hackerstreet.in     	
+#127.0.1.1        imgur.com
+#127.0.1.1        i.imgur.com
+#127.0.1.1        m.imgur.com
+#127.0.1.1        9gag.com
+#127.0.1.1        twitter.com
+#127.0.1.1        www.twitter.com
 
 165.225.128.15   www.cloudflarechallenge.com 
 
